@@ -12,7 +12,7 @@ function Nav() {
           <div className="flex">
           <ButtonLinks href="id"><img src={Logo} alt="logo" /></ButtonLinks>
             <div className='hidden sm:flex space-x-4 items-center ml-4 sm:ml-6 lg:ml-8 lg:space-x-8'>
-              <ButtonLinks href={"feature"} className="text-gray-500 hover:text-gray-900 active:text-gray-400" children={"Features"}/>
+              <ButtonLinks href={"#features"} className="text-gray-500 hover:text-gray-900 active:text-gray-400" children={"Features"}/>
               <ButtonLinks href={"partners"} className="text-gray-500 hover:text-gray-900 active:text-gray-400" children={"Partners"}/>
               <ButtonLinks href={"reviews"} className="text-gray-500 hover:text-gray-900 active:text-gray-400" children={"Reviews"}/>
             </div>
