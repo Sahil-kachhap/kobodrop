@@ -14,7 +14,7 @@ function Nav() {
             <div className='hidden sm:flex space-x-4 items-center ml-4 sm:ml-6 lg:ml-8 lg:space-x-8'>
               <ButtonLinks href={"#features"} className="text-gray-500 hover:text-gray-900 active:text-gray-400" children={"Features"}/>
               <ButtonLinks href={"#partners"} className="text-gray-500 hover:text-gray-900 active:text-gray-400" children={"Partners"}/>
-              <ButtonLinks href={"reviews"} className="text-gray-500 hover:text-gray-900 active:text-gray-400" children={"Reviews"}/>
+              <ButtonLinks href={"#reviews"} className="text-gray-500 hover:text-gray-900 active:text-gray-400" children={"Reviews"}/>
             </div>
           </div> 
           <ButtonLinks href="https://www.google.com" target="_blank" className="hidden sm:flex bg-gray-800 text-white rounded-xl px-5 py-3 hover:bg-gray-900 active:bg-gray-600" children={"Install Kobodrop"} />

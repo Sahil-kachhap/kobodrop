@@ -3,6 +3,7 @@ import Nav from './sections/Nav';
 import Hero from './sections/Hero';
 import Features from './sections/Features';
 import Partner from './sections/Partner';
+import Review from './sections/Review';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <Features />
       <Partner />
+      <Review />
     </>
   );
 }
