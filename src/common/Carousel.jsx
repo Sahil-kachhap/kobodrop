@@ -36,7 +36,7 @@ function Carousel({ slides }) {
             <img
               className="min-h-[400px] object-cover"
               src={slide.src}
-              alt={`Slideshow image ${index}`}
+              alt={`Slideshow ${index}`}
             />
             <div className="absolute left-0 top-44 flex h-96 w-full flex-col gap-2 bg-gray-800/[0.6] p-4 text-white lg:gap-4">
               <p>{slide.text}</p>
